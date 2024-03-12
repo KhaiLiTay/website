@@ -1,0 +1,67 @@
+.classA{
+    width: 100%;
+    overflow: hidden;
+    height: 380px;
+}
+
+.classB{
+    width: 100%;
+    overflow: hidden;
+    height: 480px;
+}
+
+.card-img-overlay{
+    font-size: xx-large;
+    font-style: italic;
+    font-display: lavender;
+}
+
+.photo-column{
+    background-color: sienna;
+    height: 900px;
+}
+
+ #photo-gallery{
+    background-color: bisque;
+    height: 900px;
+}
+
+.photo-sm {
+    width: 100%;
+    height: 380px;
+    background-color: rgb(221,200,190);
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+.photo-big {
+    width: 100%;
+    height: 480px;
+    background-color: rgb(158,118,99);
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+@media (min-width: 575.98px){
+    .video {
+        margin-top: 20px;
+        width: 100%;
+        height: 400px;
+    }
+}
+
+@media (min-width: 767.98px){
+    .video {
+        margin-top: 20px;
+        width: 100%;
+        height: 600px;
+    }
+}
+
+@media (min-width: 991.98px){
+    .video {
+        margin-top: 20px;
+        width: 100%;
+        height: 800px;
+    }
+}
