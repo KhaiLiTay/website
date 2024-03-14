@@ -32,6 +32,7 @@
     background-color: rgb(221,200,190);
     margin-top: 20px;
     overflow: hidden;
+    background-size: cover;
 }
 
 .photo-big {
@@ -40,6 +41,7 @@
     background-color: rgb(158,118,99);
     margin-top: 20px;
     overflow: hidden;
+    background-size: cover;
 }
 
 @media (min-width: 575.98px){
