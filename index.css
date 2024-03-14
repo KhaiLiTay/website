@@ -17,6 +17,9 @@
     
 }
 
+.card-img{
+    width: 100%;
+}
 .card-img-overlay{
     font-size: small;
     font-family: DFKai-sb;
