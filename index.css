@@ -18,20 +18,21 @@
 }
 
 .card-img-overlay{
-    font-size: xx-large;
+    font-size: small;
     font-family: DFKai-sb;
     font-style: italic;
-    font-display: black;
+    font-display: MistyRose;
+    text-align: right;
 }
 
 .photo-column{
     background-color: sienna;
-    height: 1100px;
+    height: 1120px;
 }
 
  #photo-gallery{
     background-color: bisque;
-    height: 1100px;
+    height: 1120px;
 }
 
 .photo-sm {
@@ -62,6 +63,25 @@
     width: 100%;
     height: 100%;
     object-fit: cover; /* Add object-fit */
+}
+
+.btn-primary {
+    background-color: lavender; /* 更改主要按鈕的背景顏色 */
+    color: mediumpurple; /* 更改按鈕文字顏色 */
+    font-family: Arial, sans-serif; /* 更改按鈕字體 */
+    /*border: 2px solid black; 增加按鈕的邊框 */
+    padding: 10px 20px; /* 添加內部填充，上下各 10px，左右各 20px */
+    margin-left: 10px; /* 添加右邊的間距 */
+    margin-right: 10px; /* 添加右邊的間距 */
+}
+
+.btn-secondary {
+    background-color: lavenderblush; /* 更改次要按鈕的背景顏色 */
+    color: orchid; /* 更改按鈕文字顏色 */
+    font-family: Arial, sans-serif; /* 更改按鈕字體 */
+    padding: 10px 20px; /* 添加內部填充，上下各 10px，左右各 20px */
+    margin-left: 10px; /* 添加右邊的間距 */
+    margin-right: 10px; /* 添加右邊的間距 */
 }
 
 
