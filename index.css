@@ -157,3 +157,59 @@
   left: 0;
   z-index: -1; /* Ensure the background is behind other content */
 }
+
+/* Style the navigation bar */
+nav {
+    background-color: #333; /* Set the background color */
+    padding: 10px; /* Add some padding */
+}
+
+/* Style the navigation links */
+nav ul {
+    list-style-type: none; /* Remove the bullets */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+nav ul li {
+    display: inline; /* Display the list items horizontally */
+}
+
+nav ul li a {
+    color: white; /* Set the text color */
+    text-decoration: none; /* Remove underline */
+    padding: 10px; /* Add some padding */
+}
+
+nav ul li a:hover {
+    background-color: #555; /* Change background color on hover */
+}
+
+/* Style the dropdown menu */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #555;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}

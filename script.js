@@ -12,8 +12,7 @@ function checkPassword() {
   // Replace "your_password_here" with your actual password
   if (password === "khaili") {
     modal.style.display = "none";
-    document.getElementById("mainContent").style.display = "block";
-    document.getElementById("backgroundSection").style.display = "none"; // Hide background image
+    window.location.href = "home.html"; // Redirect to home.html
   } else {
     alert("Incorrect password. Please try again.");
   }
